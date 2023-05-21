@@ -42,7 +42,7 @@ class Developer: Employee {
     
     
     // This overrides the parent class function with the same name. Swift makes you use the override
-    // keyword to do this. You must make a change to the function so your code comiples
+    // keyword to do this. You must make a change to the function so your code compiles
     override func printSummary() {
         print("I am a developer working who works \(hours) hours per day working on code and the rest of the day I debate the usgae of tabs or spaces")
     }
